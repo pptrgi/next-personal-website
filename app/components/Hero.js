@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="custom_container">
       <div className="hero_section flex_center w-full">
-        <div className="flex_col gap-[9rem] items-center h-full">
+        <div className="flex_col gap-y-[9rem] items-center h-full sm:gap-y-[8rem]">
           <div className="flex_col items-center gap-[3rem]">
             <div className="flex_col items-center gap-[0.75rem]">
               <h3 className="title_h2_bold spaced capitalize leading-none">
@@ -29,12 +29,12 @@ const Hero = () => {
               <div className="flex items-center gap-[0.125rem] md480:gap-[0.25rem]">
                 <img
                   src="/programming_desk.svg"
-                  className="max-w-[130px] md480:max-w-[200px]"
+                  className="max-w-[150px] sm:max-w-[130px] md480:max-w-[230px]"
                   alt="illustration"
                 />
                 <img
                   src="/computer_screens.svg"
-                  className="max-w-[130px] md480:max-w-[200px]"
+                  className="max-w-[150px] sm:max-w-[130px] md480:max-w-[230px]"
                   alt="illustration"
                 />
               </div>

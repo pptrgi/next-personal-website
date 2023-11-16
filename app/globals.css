@@ -18,13 +18,13 @@ body {
   @apply mt-[6rem] px-[0.75rem];
 }
 .hero_section {
-  @apply mt-[10rem] px-[0.75rem];
+  @apply mt-[8rem] px-[0.75rem] md480:mt-[10rem];
 }
 .section {
-  @apply px-[1rem] pt-[4rem] pb-[1rem];
+  @apply px-[1rem] pt-[5rem] pb-[2.5rem];
 }
 .section_with_bg {
-  @apply px-[0.5rem] pt-[2rem] pb-[1rem] md480:px-[1rem];
+  @apply px-[0.5rem] pt-[2rem] pb-[2.5rem] md480:px-[0.25rem] lg1023:px-[1rem];
 }
 .flex_between {
   @apply flex justify-between items-center;
@@ -53,6 +53,19 @@ body {
   @apply tracking-wide;
 }
 
+.filled_button {
+  @apply px-[1.25rem] py-[0.6rem] rounded-full bg-titleColor text-containerColor tracking-wide;
+}
+.outline_button {
+  @apply px-[1.25rem] py-[0.6rem] rounded-full text-titleColor border-[1.8px] border-titleColor tracking-wide;
+}
+
 .bottom_shadow {
-  box-shadow: 0 0 10px #dfdfdf;
+  box-shadow: 0 0 10px #efefef;
+}
+.top_shadow {
+  box-shadow: 0 -10px 14px #ffffff;
+}
+.border_section_top {
+  @apply border-t-[1.5px] border-neutral-400/20;
 }

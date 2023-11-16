@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
-import About from "./components/About.";
+import About from "./components/about/About.";
 import Tools from "./components/tools/Tools";
 import Projects from "./components/projects/Projects";
 import CallToAction from "./components/CallToAction";

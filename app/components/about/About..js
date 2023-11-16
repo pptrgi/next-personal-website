@@ -1,11 +1,16 @@
 import React from "react";
+import { aboutSkillsData } from "./AboutSkillsData";
+import AboutSkillCard from "./AboutSkillCard";
 
 const About = () => {
   return (
-    <section className="custom_container mt-[1rem] relative section_with_bg">
-      <div className="absolute top-0 left-0 right-0 bg-titleColor h-[60vh] z-10 xs:h-[80vh] md480:h-[40vh]"></div>
+    <section
+      className="custom_container mt-[1rem] relative section_with_bg"
+      id="about"
+    >
+      <div className="absolute top-0 left-0 right-0 bg-titleColor h-[22rem] z-10"></div>
       <div className="flex_center w-full">
-        <div className="flex_col items-center gap-[2rem]">
+        <div className="flex_col items-center gap-[3rem]">
           <div className="flex_col gap-[0.75rem] items-center w-full max-w-md">
             <h3 className="text-containerColor text-h3Font font-semibolded spaced z-20">
               Hi I'm Peter, Nice to Meet You
@@ -19,16 +24,31 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-[0.5rem] px-[0.75rem] md480:grid-cols-12 z-20">
-            <div className="flex_col gap-[2rem] items-center bg-containerColor rounded-md py-[2rem] px-[0.5rem] col-span-1 md480:col-span-4 md480:px-[0.75rem]">
-              <h4 className="title_normal_bold spaced">Frontend</h4>
+          <div className="grid grid-cols-1 gap-[1rem] px-[1.25rem] z-20 md480:grid-cols-12 sm:px-[0.75rem] md480:px-[0.25rem] lg1023:px-[0.75rem] md480:gap-[0.5rem] lg1023:gap-[1.25rem]">
+            {aboutSkillsData.map((skill, index) => {
+              return (
+                <AboutSkillCard
+                  key={index}
+                  name={skill.name}
+                  description={skill.description}
+                  specifics={skill.specifics}
+                  tools={skill.tools}
+                />
+              );
+            })}
+
+            {/* <div className="flex_col gap-[2rem] items-center bg-containerColor rounded-md py-[2rem] px-[0.75rem] col-span-1 min-h-[450px] md480:col-span-4 md480:px-[0.25rem] lg1023:px-[1.25rem] md480:min-h-auto">
+              <h4 className="title_normal_bold spaced">
+                {aboutSkillsData[0].name}
+              </h4>
               <p className="spaced text-center">
-                Creating elegant and aesthetic user interfaces following core
-                design principles
+                {aboutSkillsData[0].description}
               </p>
               <div className="flex_col gap-[0.5rem] items-center">
                 <h4 className="font-semibolded spaced">What on frontend</h4>
-                <p>UI, UX, Web, App</p>
+                <div className="flex_center w-full">
+                  <p className="text-center">{aboutSkillsData[0].specifics}</p>
+                </div>
               </div>
               <div className="flex_col items-center gap-[0.5rem]">
                 <h4 className="font-semibolded spaced">Tools used</h4>
@@ -39,7 +59,8 @@ const About = () => {
                   <span>React</span>
                 </div>
               </div>
-            </div>
+            </div> */}
+            {/*
             <div className="flex_col gap-[2rem] items-center bg-containerColor rounded-md py-[2rem] px-[0.5rem] col-span-1 md480:col-span-4 md480:px-[0.75rem]">
               <h4 className="title_normal_bold spaced">Backend</h4>
               <p className="spaced text-center">
@@ -61,28 +82,27 @@ const About = () => {
               </div>
             </div>
             <div className="flex_col gap-[2rem] items-center bg-containerColor rounded-md py-[2rem] px-[0.5rem] col-span-1 md480:col-span-4 md480:px-[0.75rem]">
-              <h4 className="title_normal_bold spaced">Consulting</h4>
+              <h4 className="title_normal_bold spaced">Fullstack</h4>
               <p className="spaced text-center">
-                Are you interested in feedback or advice for your project? I can
-                help
+                Bring the frontend and backend experiences together make an
+                all-around app
               </p>
               <div className="flex_col gap-[0.5rem] items-center">
-                <h4 className="font-semibolded spaced">What on consulting</h4>
-                <p>Websites and Mobile Apps</p>
-              </div>
-              <div className="flex_col items-center gap-[0.5rem]">
-                <h4 className="font-semibolded spaced">Specificity</h4>
-                <div className="flex_col items-center gap-[0.25rem]">
-                  <span>JavaScript</span>
-                  <span>CI/CD</span>
-                  <span>SQL</span>
-                  {/* <span>Mobile applications</span>
-                  <span>Company sites</span>
-                  <span>Personal sites</span>
-                  <span>Ecommerce</span> */}
+                <h4 className="font-semibolded spaced">What on fullstack</h4>
+                <div className="flex_center w-full">
+                  <p className="text-center">Websites and Mobile Apps</p>
                 </div>
               </div>
-            </div>
+              <div className="flex_col items-center gap-[0.5rem]">
+                <h4 className="font-semibolded spaced">Tools used</h4>
+                <div className="flex_col items-center gap-[0.25rem]">
+                  <span>Non/Relational DB</span>
+                  <span>JavaScript</span>
+                  <span>CI/CD</span>
+                  <span>API's</span>
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
