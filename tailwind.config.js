@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -17,7 +19,7 @@ module.exports = {
       },
       screens: {
         xs: { max: "320px" },
-        sm: "360px",
+        sm: { max: "360px" },
         md480: "480px",
         md800: "800px",
         lg1023: "1023px",
@@ -39,6 +41,13 @@ module.exports = {
         unbolded: 400,
         semibolded: 500,
         bolded: 700,
+      },
+      fontFamily: {
+        monaText: ["Mona Sans", ...defaultTheme.fontFamily.sans],
+        monaTitle: [
+          ["Mona Sans", ...defaultTheme.fontFamily.sans],
+          { fontVariationSettings: '"wdth": 125' },
+        ],
       },
     },
   },
