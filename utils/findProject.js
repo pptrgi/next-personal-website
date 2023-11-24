@@ -1,4 +1,4 @@
-import { projectsData } from "@/app/components/projects/ProjectsData";
+import { projectsData } from "@/components/projects/ProjectsData";
 
 export const findProject = (projectNameSlug) => {
   let project;
