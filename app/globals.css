@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* fonts */
+@layer base {
+  @font-face {
+    font-family: "Mona Sans";
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: 75% 125%;
+    src: url("/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+      url("/fonts/Mona-Sans.woff2") format("woff2-variations");
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply relative bg-bodyColor text-textColor text-smallFont md480:text-normalFont;
+  @apply relative bg-bodyColor text-textColor font-monaText text-smallFont md480:text-normalFont;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Mona Sans";
+  font-stretch: 125%;
 }
 
 .custom_container {
@@ -54,10 +74,10 @@ body {
 }
 
 .filled_button {
-  @apply px-[1.25rem] py-[0.6rem] rounded-full bg-titleColor text-containerColor tracking-wide;
+  @apply px-[1.25rem] py-[0.6rem] rounded-full bg-titleColor text-containerColor tracking-wide text-center;
 }
 .outline_button {
-  @apply px-[1.25rem] py-[0.6rem] rounded-full text-titleColor border-[1.8px] border-titleColor tracking-wide;
+  @apply px-[1.25rem] py-[0.6rem] rounded-full text-titleColor border-[1.8px] border-titleColor tracking-wide text-center;
 }
 
 .bottom_shadow {
@@ -69,3 +89,19 @@ body {
 .border_section_top {
   @apply border-t-[1.5px] border-neutral-400/20;
 }
+
+.line_clamp_7 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --bodyColor: #333333;
+    --titleColor: #fff;
+    --textColor: #fafafa;
+    --containerColor: black;
+  }
+} */

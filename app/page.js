@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Hero from "./components/Hero";
-import About from "./components/about/About.";
-import Tools from "./components/tools/Tools";
-import Projects from "./components/projects/Projects";
-import CallToAction from "./components/CallToAction";
-import Contact from "./components/Contact";
+import Hero from "../components/Hero";
+import About from "../components/about/About.";
+import Tools from "../components/tools/Tools";
+import Projects from "../components/projects/Projects";
+import CallToAction from "../components/CallToAction";
+import Contact from "../components/Contact";
+import Testimonials from "../components/testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <About />
       <Tools />
       <Projects />
+      <Testimonials />
       <Contact />
       <CallToAction />
     </main>
