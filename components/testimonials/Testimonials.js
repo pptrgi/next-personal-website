@@ -1,4 +1,3 @@
-import { RiDoubleQuotesL } from "react-icons/ri";
 import { FaQuoteLeft } from "react-icons/fa";
 
 import { testimonialsData } from "./TestimonialData";
@@ -46,8 +45,8 @@ const Testimonials = () => {
                             <h4 className="title_normal_bold leading-none font-monaText">
                               {testimonial.name}
                             </h4>
-                            <p className="text-smallerFont md480:text-smallFont">
-                              {`${testimonial.positon} - ${testimonial.company}`}
+                            <p className="text-smallerFont md480:text-smallFont h-[20px]">
+                              {`${testimonial.position} - ${testimonial.company}`}
                             </p>
                           </div>
                         </div>
