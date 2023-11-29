@@ -19,25 +19,20 @@ const Hero = () => {
               </div>
               <div className="relative h-[100px] w-[100px] bg-containerColor rounded-full overflow-hidden">
                 <img
-                  src="/male_avatar.svg"
+                  src="/images/male_avatar.svg"
                   className="absolute object-cover"
-                  alt="illustration"
+                  alt="Male Avatar"
                 />
               </div>
             </div>
 
             <div className="w-full">
               <div className="flex_center w-full">
-                <div className="flex items-center gap-[0.125rem] md480:gap-[0.25rem]">
+                <div className="flex_center gap-[0.125rem] md480:gap-[0.25rem]">
                   <img
-                    src="/programming_desk.svg"
-                    className="max-w-[150px] sm:max-w-[130px] md480:max-w-[230px]"
-                    alt="illustration"
-                  />
-                  <img
-                    src="/computer_screens.svg"
-                    className="max-w-[150px] sm:max-w-[130px] md480:max-w-[230px]"
-                    alt="illustration"
+                    src="/images/devices_screens.svg"
+                    className="md480:max-w-[80%] md800:max-w-[70%] lg1023:max-w-[60%]"
+                    alt="Devices Screens"
                   />
                 </div>
               </div>

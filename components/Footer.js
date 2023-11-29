@@ -1,4 +1,10 @@
-import { IoHeart } from "react-icons/io5";
+import {
+  IoHeart,
+  IoLogoWhatsapp,
+  IoLogoLinkedin,
+  IoLogoTwitter,
+} from "react-icons/io5";
+import { RiTwitterXFill, RiWhatsappFill, RiLinkedinFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -20,13 +26,35 @@ const Footer = () => {
                   &#169; 2023
                 </p>
               </div>
-              <a href="https://buymeacoffee.com/ptrgitonga">
-                <img
-                  src="/images/buymeacoffee_logo.png"
-                  className="h-[20px]"
-                  alt="Buy Peter a Coffee"
-                />
-              </a>
+              <div className="flex gap-[0.4rem] items-center">
+                <div className="flex gap-[0.6rem] items-center pr-[0.75rem] border-r-[1.5px] border-textColor/30 md480:gap-[0.7rem] ">
+                  <a
+                    href="https://www.linkedin.com/in/petergitonga"
+                    className="p-[4px] rounded-full bg-transparent ring-2 ring-textColor text-textColor hover:ring-titleColorDark hover:text-titleColorDark transition duration-300"
+                  >
+                    <RiLinkedinFill />
+                  </a>
+                  <a
+                    href="https://x.com/ptrgitonga"
+                    className="p-[4px] rounded-full bg-transparent ring-2 ring-textColor text-textColor hover:ring-titleColorDark hover:text-titleColorDark transition duration-300"
+                  >
+                    <RiTwitterXFill />
+                  </a>
+                  <a
+                    href="https://wa.me/254700119134"
+                    className="p-[4px] rounded-full bg-transparent ring-2 ring-textColor text-textColor hover:ring-titleColorDark hover:text-titleColorDark transition duration-300"
+                  >
+                    <RiWhatsappFill />
+                  </a>
+                </div>
+                <a href="https://buymeacoffee.com/ptrgitonga">
+                  <img
+                    src="/images/buymeacoffee_logo.png"
+                    className="h-[21px]"
+                    alt="Buy Peter a Coffee"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>

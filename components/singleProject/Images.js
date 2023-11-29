@@ -8,15 +8,17 @@ const Images = ({ images }) => {
           return (
             <div
               key={index}
-              className="flex_col gap-[1rem] p-[0.5rem] bg-containerColor border-[1.8px] border-textColor/25 rounded-md md800:p-[1rem] lg1023:p-[0.6rem]"
+              className="relative flex_col gap-[1rem] p-[0.5rem] bg-containerColor border-[1.8px] border-textColor/10 rounded-md overflow-hidden md800:p-[1rem] lg1023:p-[0.6rem]"
             >
               <img
                 src={`${image?.source}`}
-                className="rounded-t-md"
+                className="rounded-t-md hover:scale-105 transition duration-300"
                 alt={image?.text}
               />
               <div className="flex_center w-full">
-                <p className="font-semibolded spaced">{image?.text}</p>
+                <p className="font-semibolded spaced text-center">
+                  {image?.text}
+                </p>
               </div>
             </div>
           );

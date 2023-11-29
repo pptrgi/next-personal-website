@@ -8,13 +8,17 @@ const AboutSkillCard = ({ name, description, specifics, tools }) => {
         {description}
       </p>
       <div className="flex_col gap-[0.5rem] items-center">
-        <h4 className="font-semibolded spaced">What on {name}</h4>
+        <h4 className="font-semibolded spaced text-titleColor/90">
+          What on {name}
+        </h4>
         <div className="flex_center w-full">
           <p className="text-center">{specifics}</p>
         </div>
       </div>
       <div className="flex_col items-center gap-[0.5rem]">
-        <h4 className="font-semibolded spaced">Tools used</h4>
+        <h4 className="font-semibolded spaced text-titleColor/90">
+          Tools used
+        </h4>
         <div className="flex_col items-center gap-[0.25rem]">
           {tools?.map((tool, index) => {
             return <span key={index}>{tool}</span>;

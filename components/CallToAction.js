@@ -3,7 +3,7 @@ import FadeIn from "./FadeIn";
 const CallToAction = () => {
   return (
     <FadeIn>
-      <div className="custom_container section">
+      <div className="custom_container section" id="cta">
         <div className="flex_center w-full -mb-[3.75rem]">
           <div className="grid grid-cols-1 items-center gap-[1.5rem] w-full ring-4 ring-titleColor bg-titleColorDark px-[0.5rem] py-[2rem] rounded-md md480:py-[3rem] lg1023:py-[4rem] md480:grid-cols-12 md480:px-[0.5rem] lg1023:px-[1rem]">
             <h2 className="col-span-1 text-[1.75rem] text-center text-containerColor/90 font-semibolded tracking-tight md480:text-h1Font md480:col-span-5 md800:col-span-4 md480:text-start">
@@ -21,7 +21,7 @@ const CallToAction = () => {
                   <div className="flex justify-center items-center md480:justify-start md480:items-start">
                     <a
                       href="mailto:pptrgitonga@gmail.com"
-                      className="px-[1.5rem] py-[0.75rem] rounded-full tracking-wider text-titleColor bg-containerColor/95 font-semibolded ring-2 ring-bodyColor text-normalFont md480:text-h3Font"
+                      className="px-[1.5rem] py-[0.75rem] rounded-full tracking-wider text-titleColor bg-containerColor/95 font-semibolded ring-2 ring-bodyColor text-normalFont hover:ring-4 hover:text-titleColorDark transition duration-300 md480:text-h3Font"
                     >
                       Get Started
                     </a>

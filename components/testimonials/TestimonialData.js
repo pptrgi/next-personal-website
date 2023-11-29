@@ -14,6 +14,6 @@ export const testimonialsData = [
     name: "Bancy Nyakio",
     company: "WorldRemit",
     position: "Customer Care Rep",
-    image: "/male_avatar.svg",
+    image: "/images/female_avatar.svg",
   },
 ];

@@ -16,11 +16,10 @@ const Projects = () => {
               My Recent Work
             </h3>
             <p className="spaced text-bodyColor/80 leading-5 text-center text-smallerFont z-20 md480:text-smallFont">
-              Here are some of the projects I have worked on. Sorted from the
-              most recent to the earliest (personal website is an upgrade of my
-              previous React portfolio, the 1<sup>st</sup> project). I'm keeping
-              this section updated with a selection of projects I'm currently
-              tackling.
+              Here are some of the projects I have worked on. They are sorted
+              from the most recent to the earliest. I'm keeping this section
+              updated with a selection of projects I'm currently tackling. It
+              will offer a glimpse into my current daily work.
             </p>
           </div>
 

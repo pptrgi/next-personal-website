@@ -42,7 +42,7 @@ const Testimonials = () => {
                             />
                           </div>
                           <div className="flex_col gap-[0.25rem]">
-                            <h4 className="title_normal_bold leading-none font-monaText">
+                            <h4 className="text-titleColor font-semibold spaced leading-none font-monaText">
                               {testimonial.name}
                             </h4>
                             <p className="text-smallerFont md480:text-smallFont h-[20px]">

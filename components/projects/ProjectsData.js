@@ -100,13 +100,13 @@ export const projectsData = [
         text: "Single Type / Category",
       },
       {
-        source: "/images/projects/nyumbahub/nh-user-wishlist.png",
-        text: "User Jerry's Wishlist",
-      },
-      {
         source: "/images/projects/nyumbahub/nh_backend.png",
         text: "Backend UI",
       },
+      // {
+      //   source: "/images/projects/nyumbahub/nh-user-wishlist.png",
+      //   text: "User Jerry's Wishlist",
+      // },
     ],
     technologies: [
       "Node/Express.js",
