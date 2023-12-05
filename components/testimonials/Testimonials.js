@@ -6,7 +6,10 @@ import FadeIn from "../FadeIn";
 const Testimonials = () => {
   return (
     <FadeIn>
-      <section className="custom_container section border_section_top">
+      <section
+        className="custom_container section border_section_top"
+        id="testimonials"
+      >
         <div className="flex_center w-full">
           <div className="flex_col gap-[3rem] w-full items-center">
             <div className="flex_col gap-[0.75rem] items-center w-full max-w-md">
@@ -34,11 +37,11 @@ const Testimonials = () => {
                           {testimonial.quote}
                         </p>
                         <div className="flex gap-x-[1rem] items-center">
-                          <div className="relative w-[60px] h-[60px] rounded-full overflow-hidden">
+                          <div className="relative w-[60px] min-w-fit h-[60px] rounded-full overflow-hidden ring-4 ring-titleColor/5">
                             <img
                               src={testimonial.image}
                               alt={testimonial.name}
-                              className="bg-inherit ring-4 ring-bodyColor"
+                              className="bg-inherit h-full w-full rounded-full object-cover"
                             />
                           </div>
                           <div className="flex_col gap-[0.25rem]">

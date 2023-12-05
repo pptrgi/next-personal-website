@@ -4,7 +4,10 @@ import { tools } from "./ToolsData";
 const Tools = () => {
   return (
     <FadeIn>
-      <section className="custom_container section border_section_top">
+      <section
+        className="custom_container section border_section_top"
+        id="technologies"
+      >
         <div className="flex_center w-full">
           <div className="flex_col gap-[3rem] w-full items-center">
             <div className="flex_col gap-[0.75rem] items-center w-full max-w-md">

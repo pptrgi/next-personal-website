@@ -38,17 +38,17 @@ const HamMenu = ({ closeMenu }) => {
             href={"/"}
             className="relative group"
           >
-            <span className="tracking-wide text-titleColor/60 group-hover:text-titleColor">
+            <span className="text-titleColor group-hover:text-titleColor/50">
               Home
             </span>
-            <span className="hidden absolute bottom-0 left-0 w-[0.9rem] h-[0.125rem] bg-titleColor/60 group-hover:block"></span>
+            <span className="block absolute bottom-0 left-0 w-[0.9rem] h-[0.125rem] bg-titleColor/60 group-hover:hidden"></span>
           </Link>
           <Link
             onClick={(e) => closeMenu()}
             href={"/#about"}
             className="relative group"
           >
-            <span className="tracking-wide text-titleColor/60 group-hover:text-titleColor">
+            <span className="text-titleColor/50 group-hover:text-titleColor">
               About
             </span>
             <span className="hidden absolute bottom-0 left-0 w-[0.9rem] h-[0.125rem] bg-titleColor/60 group-hover:block"></span>
@@ -58,8 +58,18 @@ const HamMenu = ({ closeMenu }) => {
             href={"/#projects"}
             className="relative group"
           >
-            <span className="tracking-wide text-titleColor/60 group-hover:text-titleColor">
+            <span className="text-titleColor/50 group-hover:text-titleColor">
               Projects
+            </span>
+            <span className="hidden absolute bottom-0 left-0 w-[0.9rem] h-[0.125rem] bg-titleColor/60 group-hover:block"></span>
+          </Link>
+          <Link
+            onClick={(e) => closeMenu()}
+            href={"/#testimonials"}
+            className="relative group"
+          >
+            <span className="text-titleColor/50 group-hover:text-titleColor">
+              Testimonials
             </span>
             <span className="hidden absolute bottom-0 left-0 w-[0.9rem] h-[0.125rem] bg-titleColor/60 group-hover:block"></span>
           </Link>
@@ -71,15 +81,15 @@ const HamMenu = ({ closeMenu }) => {
             href={"/#cta"}
             className="relative group"
           >
-            <span className="tracking-wide text-titleColor/60 group-hover:text-titleColor">
-              Start Project
+            <span className=" text-titleColor/50 group-hover:text-titleColor">
+              Start a Project
             </span>
             <span className="hidden absolute bottom-0 left-0 w-[0.9rem] h-[0.125rem] bg-titleColor/60 group-hover:block"></span>
           </Link>
           <Link
             onClick={(e) => closeMenu()}
             href={"/#contact"}
-            className="filled_button"
+            className="px-[1.75rem] py-[0.6rem] rounded-full bg-titleColor text-containerColor/95 tracking-wide text-center cursor-pointer hover:bg-titleColorDark transition duration-300"
           >
             Contact
           </Link>
@@ -92,7 +102,7 @@ const HamMenu = ({ closeMenu }) => {
         <IoClose />
       </span>
       <div className="absolute bottom-[1.25rem] flex_center w-full">
-        <p className="text-tiny">
+        <p className="text-tiny text-titleColor">
           Copyright &#169; {new Date().getFullYear()}. p.Gitonga
         </p>
       </div>

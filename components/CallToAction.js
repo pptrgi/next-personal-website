@@ -13,7 +13,7 @@ const CallToAction = () => {
               <div className="grid grid-cols-1 min gap-[1.5rem] items-center md480:gap-[2rem] lg1023:grid-cols-6">
                 <div className="col-span-1 lg1023:col-span-4">
                   <p className="text-bodyColor/60 spaced text-normalFont leading-6 text-center max-w-sm md480:leading-7 md480:text-h3Font md480:text-start">
-                    Let's discuss your pending or unstarted project, or the
+                    Let's talk about your pending or unstarted project, or the
                     other one that you're not sure about
                   </p>
                 </div>

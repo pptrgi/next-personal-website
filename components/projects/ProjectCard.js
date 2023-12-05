@@ -5,9 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 import ReadMoreOrLessText from "../ReadMoreOrLessText";
 
-const ProjectCard = ({ styles, name, summary, nameSlug }) => {
-  // let theRef = `${name.split("").join("").toLowerCase()}Ref`;
-  // theRef = useRef();
+const ProjectCard = ({ styles, name, summary, nameSlug, websiteLink }) => {
   const router = useRouter();
 
   const handleSeeMore = (nameSlug) => {
@@ -31,7 +29,9 @@ const ProjectCard = ({ styles, name, summary, nameSlug }) => {
           <div className="flex_col gap-[2rem] md480:gap-[1rem] lg1023:gap-[2rem]">
             <p className="text-center">{summary}</p>
             <div className="flex flex-row justify-center items-center gap-[0.75rem] w-full md480:flex-col lg1023:flex-row md480:gap-[0.25rem] lg1023:gap-[0.75rem]">
-              <span className="filled_button">Visit Website</span>
+              <a href={websiteLink} className="filled_button">
+                Visit Website
+              </a>
               <span
                 onClick={(e) => handleSeeMore(nameSlug)}
                 className="outline_button"

@@ -23,7 +23,7 @@ const Footer = () => {
                   <span className="text-titleColorDark font-semibolded">
                     p.Gitonga
                   </span>{" "}
-                  &#169; 2023
+                  &#169; {new Date().getFullYear()}
                 </p>
               </div>
               <div className="flex gap-[0.4rem] items-center">

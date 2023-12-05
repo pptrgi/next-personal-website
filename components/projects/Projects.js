@@ -33,6 +33,7 @@ const Projects = () => {
                     name={project.name}
                     summary={project.summary}
                     nameSlug={project.nameSlug}
+                    websiteLink={project.websiteLink}
                   />
                 );
               })}

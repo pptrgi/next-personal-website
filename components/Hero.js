@@ -13,8 +13,8 @@ const Hero = () => {
                   fullstack developer
                 </h3>
                 <p className="spaced text-center max-w-md">
-                  A life-long learner who enjoys creating simple beautiful
-                  functional things that live on the internet
+                  A life-long learner who enjoys creating simple, beautiful and
+                  functional things that live on the internet.
                 </p>
               </div>
               <div className="relative h-[100px] w-[100px] bg-containerColor rounded-full overflow-hidden">
