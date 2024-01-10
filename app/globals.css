@@ -73,11 +73,15 @@ h4 {
   @apply tracking-wide;
 }
 
+.trans_300 {
+  @apply transition duration-300;
+}
+
 .filled_button {
-  @apply px-[1.25rem] py-[0.6rem] rounded-full bg-titleColor text-containerColor tracking-wide text-center cursor-pointer hover:bg-titleColorDark transition duration-300;
+  @apply px-[1.25rem] py-[0.6rem] rounded-full bg-titleColor text-containerColor tracking-wide text-center cursor-pointer hover:bg-titleColorDark trans_300;
 }
 .outline_button {
-  @apply px-[1.25rem] py-[0.6rem] rounded-full text-titleColor ring-1 ring-titleColor tracking-wide text-center cursor-pointer hover:ring-2  hover:text-titleColorDark transition duration-300;
+  @apply px-[1.25rem] py-[0.6rem] rounded-full text-titleColor ring-1 ring-titleColor tracking-wide text-center cursor-pointer hover:ring-2  hover:text-titleColorDark trans_300;
 }
 
 .bottom_shadow {
@@ -96,12 +100,3 @@ h4 {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 7;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --bodyColor: #333333;
-    --titleColor: #fff;
-    --textColor: #fafafa;
-    --containerColor: black;
-  }
-} */
