@@ -8,11 +8,10 @@ import {
   FaNodeJs,
   FaTerminal,
 } from "react-icons/fa";
-import { IoLogoPython } from "react-icons/io";
 import {
   SiVisualstudiocode,
   SiTailwindcss,
-  SiDjango,
+  SiDocker,
   SiPostgresql,
   SiExpress,
   SiPostman,
@@ -21,7 +20,6 @@ import {
   SiNextdotjs,
   SiJenkins,
   SiJest,
-  SiCypress,
   SiApollographql,
 } from "react-icons/si";
 import {} from "react-icons/";
@@ -96,7 +94,7 @@ export const tools = [
     name: "Jest",
   },
   {
-    icon: <SiCypress />,
-    name: "Cypress",
+    icon: <SiDocker />,
+    name: "Docker",
   },
 ];
