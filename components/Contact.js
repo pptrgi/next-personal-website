@@ -3,6 +3,7 @@
 import { IoChatboxSharp, IoReaderSharp, IoPeopleSharp } from "react-icons/io5";
 
 import FadeIn from "./FadeIn";
+import IconComplement from "./IconComplement";
 
 const Contact = () => {
   return (
@@ -19,9 +20,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 gap-[3rem] md480:grid-cols-6 md480:gap-[1rem]">
               <div className="col-span-1 md480:col-span-2">
                 <div className="flex gap-[0.5rem] items-start">
-                  <span className="p-[4px] text-h3 rounded-full bg-titleColor text-bodyColor">
-                    <IoPeopleSharp />
-                  </span>
+                  <IconComplement icon={<IoPeopleSharp />} />
                   <div className="flex_col gap-[1.5rem]">
                     <div className="flex_col gap-[0.5rem]">
                       <h3 className="text-titleColor font-semibolded">
@@ -47,9 +46,7 @@ const Contact = () => {
 
               <div className="col-span-1 md480:col-span-2">
                 <div className="flex gap-[0.5rem] items-start">
-                  <span className="p-[4px] text-h3 rounded-full bg-titleColor text-bodyColor">
-                    <IoReaderSharp />
-                  </span>
+                  <IconComplement icon={<IoReaderSharp />} />
                   <div className="flex_col gap-[1.5rem]">
                     <div className="flex_col gap-[0.5rem]">
                       <h3 className="text-titleColor font-semibolded">
@@ -72,9 +69,7 @@ const Contact = () => {
 
               <div className="col-span-1 md480:col-span-2">
                 <div className="flex gap-[0.5rem] items-start">
-                  <span className="p-[4px] text-h3 rounded-full bg-titleColor text-bodyColor">
-                    <IoChatboxSharp />
-                  </span>
+                  <IconComplement icon={<IoChatboxSharp />} />
                   <div className="flex_col gap-[1.5rem]">
                     <div className="flex_col gap-[0.5rem]">
                       <h3 className="text-titleColor font-semibolded">

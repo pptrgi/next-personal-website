@@ -5,6 +5,7 @@ import { IoBagCheck, IoConstructSharp } from "react-icons/io5";
 
 import ReadMoreOrLessText from "../ReadMoreOrLessText";
 import FadeIn from "../FadeIn";
+import IconComplement from "../IconComplement";
 
 const Descriptions = ({
   name,
@@ -30,9 +31,7 @@ const Descriptions = ({
 
       <div className="grid grid-cols-2 gap-[1rem] sm:gap-[0.5rem]">
         <div className="flex gap-[0.5rem] items-start">
-          <span className="p-[4px] text-h3 rounded-full bg-titleColor text-bodyColor">
-            <IoBagCheck />
-          </span>
+          <IconComplement icon={<IoBagCheck />} />
           <div className="flex_col gap-[0.5rem]">
             <h4 className="title_normal_bold">Features</h4>
             <div className="flex_col gap-[0.125rem]">
@@ -48,9 +47,7 @@ const Descriptions = ({
         </div>
 
         <div className="flex gap-[0.5rem] items-start">
-          <span className="p-[4px] text-h3 rounded-full bg-titleColor text-bodyColor">
-            <IoConstructSharp />
-          </span>
+          <IconComplement icon={<IoConstructSharp />} />
           <div className="flex_col gap-[0.5rem]">
             <h4 className="title_normal_bold">Technologies</h4>
             <div className="flex_col gap-[0.125rem]">
