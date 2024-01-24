@@ -20,7 +20,7 @@ const CallToAction = () => {
                 <div className="col-span-1 lg1023:col-span-2">
                   <div className="flex justify-center items-center md480:justify-start md480:items-start">
                     <a
-                      href="mailto:pptrgitonga@gmail.com"
+                      href="mailto:pptrgitonga@gmail.com?subject=Start%20a%20Project&body=Hello%20Peter%2C%0A%0A"
                       className="px-[1.5rem] py-[0.75rem] rounded-full tracking-wider text-titleColor bg-containerColor/95 font-semibolded ring-2 ring-bodyColor text-normalFont hover:ring-4 hover:text-titleColorDark transition duration-300 md480:text-h3Font"
                     >
                       Get Started

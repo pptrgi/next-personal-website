@@ -9,11 +9,11 @@ const Hero = () => {
           <div className="flex_col gap-y-[9rem] items-center h-full sm:gap-y-[8rem]">
             <div className="flex_col items-center gap-[3rem]">
               <div className="flex_col items-center gap-[0.75rem]">
-                <h3 className="title_h2_bold spaced capitalize leading-none">
+                <h3 className="title_h2_bold spaced capitalize leading-none text-center">
                   fullstack developer
                 </h3>
                 <p className="spaced text-center max-w-md">
-                  A life-long learner who enjoys creating simple, beautiful and
+                  A life-long learner who enjoys creating elegant, beautiful and
                   functional things that live on the internet.
                 </p>
               </div>

@@ -21,8 +21,8 @@ import {
   SiJenkins,
   SiJest,
   SiApollographql,
+  SiKubernetes,
 } from "react-icons/si";
-import {} from "react-icons/";
 
 export const tools = [
   {
@@ -96,5 +96,9 @@ export const tools = [
   {
     icon: <SiDocker />,
     name: "Docker",
+  },
+  {
+    icon: <SiKubernetes />,
+    name: "Kubernetes",
   },
 ];

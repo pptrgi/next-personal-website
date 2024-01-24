@@ -3,7 +3,7 @@ export const projectsData = [
     name: "qazini",
     nameSlug: "qazini",
     summary:
-      "A job search helper querying RapidAPI, with Graphql and Postgres for backend ops",
+      "A job search helper querying RapidAPI, with Graphql and Postgres for backend operations",
     gradientStyle:
       "bg-gradient-to-br from-[#FFD3EB] via-[#ff98d0] to-[#ff229a]",
     fullDescription:
@@ -36,12 +36,12 @@ export const projectsData = [
         text: "User's Board",
       },
       {
-        source: "/images/projects/qazini/q-loading-skeletons.png",
-        text: "Loading Skeletons",
+        source: "/images/projects/qazini/q-saved-jobs.png",
+        text: "Saved Jobs",
       },
       {
-        source: "/images/projects/qazini/q-contact.png",
-        text: "Contact",
+        source: "/images/projects/qazini/q-loading-skeletons.png",
+        text: "Loading Skeletons",
       },
     ],
     technologies: [

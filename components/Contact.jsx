@@ -35,7 +35,7 @@ const Contact = () => {
                       </p>
                     </div>
                     <a
-                      href="mailto:pptrgitonga@gmail.com"
+                      href="mailto:pptrgitonga@gmail.com?subject=Collaboration%20or%20Partnership&body=Hello%20Peter%2C%0A%0A"
                       className="outline_button w-fit truncate"
                     >
                       Let's do this
@@ -57,7 +57,7 @@ const Contact = () => {
                       </p>
                     </div>
                     <a
-                      href="/resume/Peter_Gitonga_Resume.pdf"
+                      href="/resume/Peter-Gitonga-CV-S.pdf"
                       download={true}
                       className="outline_button w-fit"
                     >
@@ -80,7 +80,7 @@ const Contact = () => {
                       </p>
                     </div>
                     <a
-                      href="https://wa.me/254700119134"
+                      href="https://wa.me/254700119134?text=Hi%20Peter%2C%0A%0AI%27d%20like%20us%20to%20be%20friends"
                       className="outline_button w-fit"
                     >
                       Say hello
