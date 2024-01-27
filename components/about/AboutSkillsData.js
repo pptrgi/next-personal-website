@@ -13,10 +13,10 @@ export const aboutSkillsData = [
     tools: ["PostgreSQL", "Express.js", "MongoDB", "Node.js", "Django"],
   },
   {
-    name: "fullstack",
-    description: "Bring the frontend and backend experiences together",
+    name: "devOps",
+    description: "Frontend and backend experiences, plus more",
     specifics: "Websites and Mobile Apps",
-    tools: ["Non/Relational DB", "JavaScript", "DevOps", "CI/CD"],
+    tools: ["Kubernetes", "Docker", "Jenkins", "AWS", "Jira"],
   },
 ];
 
