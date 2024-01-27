@@ -5,8 +5,7 @@ export const testimonialsData = [
     name: "Job Ochieng",
     company: "OPCW",
     position: "Senior IT Support",
-    image:
-      "https://media.licdn.com/dms/image/D4E03AQEDoE9Xv8U0wg/profile-displayphoto-shrink_800_800/0/1694777805682?e=1706140800&v=beta&t=wXyU3MBZ-3bVc7CTgzkoOhpNMXSmIR4RF4kFjzJkzYw",
+    image: "/images/ochy-testimonial.jpeg",
   },
   {
     quote:
