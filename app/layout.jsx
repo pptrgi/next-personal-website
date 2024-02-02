@@ -14,7 +14,7 @@ export const metadata = {
     url: "https://pgitonga.vercel.app",
     images: [
       {
-        url: "https://res.cloudinary.com/dxw5yqr3s/image/upload/v1701943079/Open%20Graph/next_portfolio_kjrppb.png",
+        url: "https://res.cloudinary.com/dxw5yqr3s/image/upload/v1706720448/Open%20Graph/next-portfolio_wfhuwv.png",
       },
     ],
     type: "website",
@@ -26,7 +26,7 @@ export const metadata = {
     creator: "@ptrgitonga",
     author: "@ptrgitonga",
     images: [
-      "https://res.cloudinary.com/dxw5yqr3s/image/upload/v1701943079/Open%20Graph/next_portfolio_kjrppb.png",
+      "https://res.cloudinary.com/dxw5yqr3s/image/upload/v1706720448/Open%20Graph/next-portfolio_wfhuwv.png",
     ],
   },
 };
